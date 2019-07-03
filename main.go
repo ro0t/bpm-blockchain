@@ -16,22 +16,6 @@ import (
 
 // https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc
 // Check more shiet ... ^
-
-import (
-	"crypto/sha256"
-	"encoding/hex"
-	"encoding/json"
-	"io"
-	"log"
-	"net/http"
-	"os"
-	"time"
-
-	"github.com/davecgh/go-spew/spew"
-	"github.com/gorilla/mux"
-	"github.com/joho/godotenv"
-)
-
 // 82 bpm at the start ishhhh
 
 type Block struct {
